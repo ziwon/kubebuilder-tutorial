@@ -1,0 +1,7 @@
+version: "2"
+domain: brainest.ml
+repo: kubebuilder
+resources:
+- group: app
+  version: v1
+  kind: Pipeline
